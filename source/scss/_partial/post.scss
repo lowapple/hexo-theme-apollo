@@ -4,14 +4,17 @@
 
 .post-block {
     .post-title {
-        margin: 0.65em 0;
+        margin-top: 0.65em;
+        margin-bottom: 0;
         color: #2c3e50;
+        font-family: 'NotoKrR', sans-serif;
         font-size: 1.5em;
     }
 
     .post-info {
         color: #7f8c8d;
-        margin: 1.2em 0;
+        margin-top: 0em;
+        margin-bottom: 1.2em;
         span {
             margin-left: 0.5rem;
         }
@@ -30,6 +33,8 @@
     h2, h3, h4, h5, h6 {
         position: relative;
         margin: 1em 0;
+        color: #2c3e50;
+        /*
         a:before {
             content: "#";
             color: #42b983;
@@ -39,6 +44,7 @@
             font-size: 1.2em;
             font-weight: bold;
         }
+        */
     }
     h4, h5, h6 {
         a:before {
@@ -54,13 +60,14 @@
         font-size: 18px;
     }
     a {
-        color: #42b983;
+        color: #ffffff;
         word-break: break-all;
+        background: #2c3e50;
     }
     blockquote {
         margin: 2em 0;
         padding-left: 20px;
-        border-left: 4px solid #42b983;
+        border-left: 4px solid #2c3e50;
     }
     img {
         display: block;
